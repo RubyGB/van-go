@@ -1,6 +1,11 @@
 # van-go
 A library of image manipulation tools usable from a CLI interface, written in go.
 
+## Installation
+Ensure you have the latest version of Go installed. Clone this repo, navigate to it and run `go build -o van.exe` to compile an executable.
+
+In a future version I'm likely to set up installation with a package manager, negating the requirement to have Go installed locally.
+
 ## palettefy
 Takes as arguments a source image and a palette of colors, and creates a new image which closely matches the original while only using colors from the palette provided. Colors are compared in CIELAB space (under CIE76 metric) which is perceptually close to uniform. Includes dithering support.
 

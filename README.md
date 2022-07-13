@@ -2,7 +2,7 @@
 A library of image manipulation tools usable from a CLI interface, written in go.
 
 ## Installation
-Ensure you have the latest version of Go installed. Clone this repo, navigate to it and run `go build -o van.exe` to compile an executable.
+Ensure you have the latest version of Go installed (1.18+). Clone this repo, navigate to it and run `go build -o van.exe` to compile an executable.
 
 In a future version I'm likely to set up installation with a package manager, negating the requirement to have Go installed locally.
 
